@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+}
+.foot{
+    width: 1520.8px;
+    height: 550px;
+    background-color: #ffbb49;
+}
+.footer1{
+    height: 350px;
+    padding: 64px 0px 32px;
+
+}
+
+.foot2{
+    padding: 24px 0px;
+    border-top:1px solid;
+    
+}
+.foot2 p{
+    margin-left: 38px;
+}
+.footer1{
+    display: flex;
+    color: black;
+    margin-left: 40px;
+
+}
+.f1{
+    margin-top: 10px;
+    width: 342.7px;
+    height: 275.4px;
+    padding: 0px 48px 0px 0px;
+    font: 17px;
+    line-height: 30px;
+}
+.f2{
+     display: flex;
+    flex-direction: column;
+    width: 342.7px;
+    height: 353px;
+    padding: 0px 0px 20px;
+    font: 17px;
+    line-height: 45px;
+    
+}
+.f2 h4{
+    margin-bottom: 10px;
+   
+}
+.f2 a{
+    text-decoration: none;
+    color: black;
+}
+.f3 a{
+    text-decoration: none;
+    color: black;
+}
+.f3{
+    display: flex;
+    flex-direction: column;
+    width: 342.7px;
+    height: 190.6px;
+    padding: 0px 0px 20px;
+    font: 17px;
+    line-height: 45px;
+    text-decoration: none;
+}
+.f3 h4{
+     margin-bottom: 10px;
+}
+.f4{
+    margin: 15px;
+    width: 342.7px;
+    height: 113px;
+    padding: 0px 0px 20px;
+    font: 17px;
+}   
+.icon{
+    display: flex;
+    gap: 22px;
+    margin-top: 35px;
+}
+h4{
+    font-weight: 800;
+}
+.slide{
+    height: 256px;
+    /* display: flex; */
+     width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: calc(200px*16);
+    animation-duration: 30s;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: moveSlideshow;
+
+
+}
+
+.image img {
+    width: 192px;
+    margin: 0px 5px;
+}
+.slder{
+    display: flex;
+    width: max-content;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+@keyframes moveSlideshow {
+0% {
+    transform: translateX(0);
+}
+100% {
+    transform: translateX(-100%);
+}
+}
+
+.sec5{
+    width:1520.8px;
+    height: 197.6;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    height: 100px;
+    margin-top: 15px;
+}
+.heading h1{
+    font-weight: 900;
+}
+.element{
+    display: flex;
+    gap: 150px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+.btn{
+    width: 156.85px;
+    height: 49px;
+    background-color: #ffbb49;
+    padding: 18px 32px;
+    border: none;
+    font-weight: 545;
+}
+.sec4{
+    width: 1520.8px;
+    /* height: 376.5px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background: #e6538b;
+    margin: 50px 0px 0px;
+    padding: 80px 0px 100px;
+    color:#ffffff;
+background: linear-gradient(280deg, rgba(230, 83, 139, 1) 46%, rgba(237, 221, 83, 1) 100%);
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.sec2{
+    width: 1490.8px;
+    height: 525px;
+    margin: 0px 15px;
+    display: flex;
+}
+.imgg1{
+    width: 745.4px;
+    height: 440px;
+    padding: 0px 15px;
+}
+.imgg2{
+    width: 745.4px;
+    height: 440px;
+    padding: 0px 15px;
+}
+.btn2{
+    position: absolute;
+    left: 75px;
+    top:350px;
+    width: 146.69px;
+    height: 49.2px;
+    color: #ffffff;
+    padding: 14px 32px;
+    font-size: 13px;
+    background: transparent;
+    border: 2px solid #ffffff;
+}
+.btn3{
+    position: absolute;
+    left: 832px;
+    top:350px;
+    width: 146.69px;
+    height: 49.2px;
+    color: #ffffff;
+    padding: 14px 32px;
+    font-size: 13px;
+    background: transparent;
+    border: 2px solid #ffffff;
+}
+.sec3 .imge img:hover{
+    transform: scale(1.1,1.1);
+}
