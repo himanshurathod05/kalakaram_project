@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* width: 1390px; */
 }
 .announcement{
     width: 100%;
@@ -174,18 +175,15 @@ header{
     background-color: #e53f6d;
     color: white;
 }
-
-
-
-*{
+/* *{
     margin: 0px;
     padding: 0px;
 }
 body{
     width: 100%;
-}
+} */
 .foot{
-    width: 1520.8px;
+    width:100%;
     height: 550px;
     background-color: #ffbb49;
 }
@@ -308,7 +306,7 @@ h4{
 }
 
 .sec5{
-    width:1520.8px;
+    width:100%;
     height: 197.6;
 }
 .main{
@@ -349,7 +347,7 @@ h4{
     font-weight: 545;
 }
 .sec4{
-    width: 1520.8px;
+    width: 100%;
     /* height: 376.5px; */
     display: flex;
     flex-direction: column;
@@ -371,7 +369,7 @@ background: linear-gradient(280deg, rgba(230, 83, 139, 1) 46%, rgba(237, 221, 83
     
 }
 .sec2{
-    width: 1490.8px;
+    width:100%;
     height: 525px;
     margin: 0px 15px;
     display: flex;
@@ -389,7 +387,7 @@ background: linear-gradient(280deg, rgba(230, 83, 139, 1) 46%, rgba(237, 221, 83
 .btn2{
     position: absolute;
     left: 75px;
-    top:350px;
+    top:2850px;
     width: 146.69px;
     height: 49.2px;
     color: #ffffff;
@@ -401,7 +399,7 @@ background: linear-gradient(280deg, rgba(230, 83, 139, 1) 46%, rgba(237, 221, 83
 .btn3{
     position: absolute;
     left: 832px;
-    top:350px;
+    top:2850px;
     width: 146.69px;
     height: 49.2px;
     color: #ffffff;
