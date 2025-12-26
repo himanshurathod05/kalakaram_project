@@ -33,8 +33,9 @@ header{
     background-color: #F0D3B5;
 }
 .logo img{
-    height: 115px;
-    width: auto;
+    /* height: 115px;
+    width: auto; */
+    background-color: transparent;
     
 }
 .search_bar input{
